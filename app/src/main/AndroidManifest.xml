@@ -21,8 +21,14 @@
             android:name=".services.ActionService"
             android:exported="false" >
         </service>
-        <service android:name=".services.StartedService"
-            android:exported="false"/>
+        <service
+            android:name=".services.StartedService"
+            android:exported="false" />
+
+        <activity
+            android:name=".ContadorActivity"
+            android:label="@string/title_activity_contador" >
+        </activity>
     </application>
 
 </manifest>
