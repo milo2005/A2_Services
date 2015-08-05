@@ -30,6 +30,8 @@ public class ActionService extends IntentService {
                 try {
                     Thread.sleep(1000);
                     Log.i("ActionService", ""+i);
+
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
